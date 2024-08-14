@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eternitea</title>
+    <link rel="stylesheet" href="stylework.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="nav">
+    <ul>
+
+      <li><a href="Home.html"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+      <li><a href="Menu.html"><i class="fa-solid fa-bars"></i> Menu</a></li>
+      <li><a href="AboutUs.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+      <li><a href="ContactUs.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+      <li><a href="WorkWithUs.html"><i class="fa-solid fa-people-group"></i> Work With Us</a></li>
+                <input placeholder="Search " type="text">
+
+    </ul>
+    </div>
+      <br/>
+
+
+      <!----------------contact--------------------->
+    <div class="heading">
+      <h2>APPLICATION FORM OF JOB RECRUITMENT</h2>
+      </div>
+
+      <div class="form">
+        <form>
+          <fieldset>
+            <legend>Personal Information: </legend>
+              <label for="text" class="clabel">Candidate Name : </label>
+              <input type="text" name="fname" placeholder="First Name" required size="40" class="cinput">
+              <input type="text" name="mname" placeholder="Middle Name" size="40" class="cinput">
+              <input type="text" name="lname" placeholder="Last Name" required size="40" class="cinput">
+              <br>
+
+              <label for="text" class="clabel">Father's Name     : </label>
+                <input type="text" name="fname" placeholder="First Name" required size="40" class="cinput">
+              <input type="text" name="mname" placeholder="Middle Name" size="40" class="cinput">
+              <input type="text" name="lname" placeholder="Last Name" required size="40" class="cinput">
+              <br>
+
+              <label for="text" class="clabel">Mother's Name    : </label>
+                <input type="text" name="fname" placeholder="First Name" required size="40" class="cinput">
+              <input type="text" name="mname" placeholder="Middle Name" size="40" class="cinput">
+              <input type="text" name="lname" placeholder="Last Name" required size="40" class="cinput">
+              <br>
+
+              <label for="text" class="clabel">Gender                 : </label>
+              <input type="radio" checked="checked" name="gender" value="male" class="gender_child">Male
+              <input type="radio" name="gender" value="female" class="gender_child">Female
+              <input type="radio" name="gender" value="other" class="gender_child">Other
+
+
+              <label for="text" class="clabel" id="nationality">Nationality           : </label>
+              <select name="nationality" class="nationality_child">
+                <option value="nationality">FILIPINO</option>
+                <option value="nationality">OTHER</option>
+                </select>
+              <br>
+
+              <label for="text" class="clabel">Religion               :  </label>
+              <select name="religion" class="religion_child">
+                <option value="religion">ROMAN CATHOLIC</option>
+                <option value="religion">CHRISTIANITY</option>
+              <option value="religion">MUSLIM</option>
+                  <option value="religion">ISLAM</option>
+                <option value="religion">BUDDHISM</option>
+                <option value="religion">OTHER</option>
+                </select>
+
+              <label for="text" class="clabel">Categories          : </label>
+              <select name="category" class="category_child">
+                <option value="category">GENERAL</option>
+                <option value="category">OBC/MOBC</option>
+              <option value="category">SC</option>
+                  <option value="category">ST</option>
+                </select>
+
+              <label for="text" class="clabel">Date of Birth       : </label>
+              <input type="date" name="DOB" class="dob" required>
+              <br>
+
+              <label for="text" class="clabel">Contact Number :  </label>
+                <input type="tel" name="contact" maxlength="11" class="contact" required>
+
+              <label for="text" class="clabel">Email Address    : </label>
+              <input type="email" name="email" required class="email_address" >
+            </fieldset>
+
+              <fieldset>
+            <legend>ADDRESS: </legend>
+                  <fieldset>
+                  <legend class="p_address">PERMANENT ADDRESS:</legend>
+                      <label for="text" class="clabel">Address    : </label>
+                      <input type="text" name="address" placeholder="Address Line 1" required class="add_input">
+                      <input type="text" name="address" placeholder="Address Line 2" class="add_input">
+                      <br>
+
+                      <label for="text" class="clabel">City/Town : </label>
+                      <input type="text" name="address" placeholder="Enter City/Town" class="add_inputcity">
+
+                      <label for="text" class="clabel">Province  : </label>
+                      <input type="text" name="address" placeholder="Enter Province" class="add_inputcity">
+                      <br>
+
+                      <label for="text" class="clabel">Zip Code :   </label>
+                      <input type="PIN" maxlength="4" name="address" placeholder="Enter Zip Code" class="add_inputnum">
+
+                      <label for="text" class="clabel">Region    : </label>
+                      <input type="text" name="address" placeholder="Enter Region" class="add_inputtext">
+
+                      <label for="text" class="clabel">Country  : </label>
+                      <input type="text" name="address" placeholder="Enter Country" class="add_inputtext">
+                  </fieldset>
+                  <label for="text" class="label_checkbox"></label>
+                  <input type="checkbox" name="checked" class="add_check">If Permanent Address as same as Current Address.
+
+                  <fieldset>
+                  <legend class="P_address">CURRENT ADDRESS:</legend>
+                    <label for="text" class="clabel">Address    : </label>
+                      <input type="text" name="address" placeholder="Address Line 1" required class="add_input">
+                      <input type="text" name="address" placeholder="Address Line 2" class="add_input">
+                      <br>
+
+                      <label for="text" class="clabel">City/Town : </label>
+                      <input type="text" name="address" placeholder="Enter City/Town" class="add_inputcity">
+
+                      <label for="text" class="clabel">Province  : </label>
+                      <input type="text" name="address" placeholder="Enter Province" class="add_inputcity">
+                      <br>
+
+                      <label for="text" class="clabel">Zip Code :   </label>
+                      <input type="PIN" maxlength="4" name="address" placeholder="Enter Zip Code" class="add_inputnum">
+
+                      <label for="text" class="clabel">Region    : </label>
+                      <input type="text" name="address" placeholder="Enter Region" class="add_inputtext">
+
+                      <label for="text" class="clabel">Country  : </label>
+                      <input type="text" name="address" placeholder="Enter Country" class="add_inputtext">
+
+                  </fieldset>
+                   <div class="submitreset">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value=Reset>
+                        </div>
+
+            </fieldset>
+
+          </form>
+      </div>
+
+          <footer>
+            <br>
+            <h1>Quick Links</h1>
+            <div class="Quick">
+              <a href="Home.html">Home</a>
+              <a href="Menu.html">Menu</a>
+              <a href="AboutUs.html">About Us</a>
+              <a href="ContactUs.html">Contact</a>
+              <a href="WorkWithUs.html">Work With Us</a>
+            </div>
+            <br>
+            <div class="About">
+              About us
+              <br><br>
+              Eternitea is a food service firm that began operations in 2010 and specializes in healthy milk tea. The notion is primarily inspired by Asia's distinct tradition of tea drinking, which is a vital component of a ceremonial in entertaining clients and represents a symbol of respect and value for the guests in many Asian nations.
+                Eternitea tea beverages are guaranteed to be created from 100 percent freshly brewed high-quality loose-leaf teas, made interesting by various flavors and combinations for a fun and healthy living.
+              <br><br>
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+            <br><br>
+            <div class="Contact">
+              Contact Info
+              <br>
+              <br>
+              <i class="fa-solid fa-location-dot"></i> 2472 J.Rizal Cruz St., Pasay City
+              <br><br>
+              <a href="tel:+639292991241"><i class="fa-solid fa-phone"></i> +63 9292 991 241</a> / <a href="tel:+639667435326">+63 9667 435 326</a>
+              <br><br>
+              <a href="mailto:eternitea@gmail.com"><i class="fa-solid fa-envelope"></i> eternitea@gmail.com</a> / <a href="mailto:eternitea@yahoo.com">eternitea@yahoo.com</a>
+            </div>
+            <br>
+            <div class="copy">
+              <p>Copyright © 2022. Eternitea Productions.<br><br>
+              Developers:<br>
+              Nicole Joy Hernandez -
+              Clint Audrey Dela Cruz -
+              Rizalino I Caguioa III -
+              Wayne Hans Camacho</p>
+            </div>
+          </footer>
+  </body>
+</html>

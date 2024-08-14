@@ -1,0 +1,355 @@
+<*-----------form-----------*>
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    width: 80vw;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    color: floralwhite;
+    background-color: 	#9932CC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-scrif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 140px;
+}
+
+.form{
+    background-color: #DA70D6;
+    width: 95vw;
+    height: 180vh;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-top: 1px;
+}
+
+fieldset{
+    border: 2px solid;
+    border-color: darkgray;
+    margin: 40px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+legend{
+    border: 2px solid darkgrey;
+    background-color: 	#EE82EE;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 20px;
+}
+
+.clabel{
+    font-family: Arial, Helvetica, sans-scrif;
+    white-space: pre;
+    font-weight: bolder;
+}
+
+.cinput{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+
+.gender_child{
+    margin: 10px;
+}
+
+#nationality{
+    font-family: Arial, Helvetica, sans-scrif;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.nationality_child{
+    width: 200px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-scrif;
+     margin-bottom: 10px;
+}
+
+.religion_child{
+    width: 200px;
+    text-transform: uppercase;
+    margin-right: 42px;
+    border-radius: 4px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.category_child{
+    width: 200px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-scrif;
+    padding: 3px;
+    text-transform: uppercase;
+    margin-right: 42px;
+        margin-bottom: 5px;
+}
+
+.dob{
+    width: 130px;
+    margin: 10px 10px 10px 5px;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 4px;
+    border: none;
+     padding: 3px;
+}
+
+.contact{
+    width: 200px;
+    font-size: larger;
+    padding: 3px;
+    margin-right: 42px;
+    border-radius: 4px;
+    border: none;
+        margin-bottom: 10px;
+}
+
+.email_address{
+    width: 270px;
+    font-size: smaller;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 4px;
+    border: none;
+         margin-bottom: 10px;
+}
+
+.p_address{
+    font-size: 15px;
+}
+
+.add_input{
+    width: 418px;
+    padding: 10px;
+    margin: 5px 20px 15px 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 4px;
+    border: none;
+}
+.add_inputcity{
+    width: 380px;
+    padding: 10px;
+    margin: 5px 6px 6px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 4px;
+    border: none;
+}
+
+.add_inputnum{
+    width: 130px;
+    padding: 10px;
+    margin: 5px 10px 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 4px;
+    border: none;
+}
+
+.add_inputtext{
+    width: 250px;
+    padding: 10px;
+    margin: 5px 10px 1px 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-scrif;
+    border-radius: 4px;
+    border: none;
+}
+
+.label_checkbox{
+    color: floralwhite;
+    margin-left: 60px;
+    font-size: 18x;
+}
+
+.submitreset input[type="submit"]{
+    background: #9932CC;
+    color: floralwhite;
+    border: none;
+    font-size: 1.1em;
+    max-width: 140px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+.submitreset input[type="reset"]{
+    background: #9932CC;
+    color: floralwhite;
+    border: none;
+    font-size: 1.1em;
+    max-width: 140px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+/*---------Responsive body-----------*/
+
+/*--------navbar------------------*/
+@media (max-width:800px){
+ .nav {
+
+    }
+
+}
+
+/*--------form------------------*/
+
+@media (max-width:990px){
+    body{
+        background: #BF40BF;
+    }
+
+    .form{
+        width: 91vw;
+        height: 345vh;
+}
+
+   .cinput{
+    width: 450px;
+       margin-bottom: 15px;
+}
+
+.gender_child{
+    margin: 25px;
+}
+    #nationality{
+        margin-left: 0;
+    }
+
+    .nationality_child{
+        margin-right: 100px;
+}
+
+.religion_child{
+    margin-left: 25px;
+    margin-right: 100px;
+}
+
+.category_child{
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+.dob{
+    margin: 10;
+     margin-left: 30px;
+    width: 200px;
+    }
+
+.contact{
+    margin-right: 100px;
+    margin-left: 23px;
+}
+
+.email_address{
+    margin-right: 100px;
+    margin-left: 25px;
+}
+
+  .add_inputnum{
+    margin-right: 200px;
+}
+
+.add_inputtext{
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+}
+
+footer {
+    background-color: #00A36C;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 25%;
+}
+
+footer .About {
+  position: relative;
+  left: 10%;
+  width: 40%;
+  text-align: justify;
+  color: white;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+footer .About a {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+footer h1  {
+  font-size: 25px;
+  color: white;
+  margin-left: 43%;
+
+}
+
+footer .Quick {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-left: 140px;
+  margin-right: 125px;
+}
+
+footer .Quick a {
+  color: white;
+  line-height: 30px;
+  padding: 50px;
+}
+
+footer .Contact {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  color: white;
+  width: 30%;
+  text-align: right;
+}
+
+footer .Contact a {
+  color: white;
+  line-height: 30px;
+}
+
+footer .copy {
+  background-color: black;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer .copy p {
+  text-align: center;
+  color: white;
+}
